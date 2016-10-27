@@ -1,0 +1,46 @@
+.container {
+    border:#000 1px solid;
+    width:100%;
+}
+
+.row {
+    overflow:hidden;
+    background-color: black;
+    color: gray;
+}
+
+.nav-tabs a {
+    background-color: #000;
+    color: gray;
+}
+
+.nav-tabs > li > a:hover {
+    background-color:black;
+    color:white;
+    border:none;
+}
+
+.nav-tabs > li > a:visited {
+    background-color:black;
+}
+
+.col-9 {
+    width:75%;
+    float:left;
+    box-sizing:border-box;
+    /*border:#000 1px solid;*/
+}
+
+.col-3 {
+    width:25%;
+    float:left;
+    box-sizing:border-box;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    text-align:center;
+    /*border:#000 1px solid;*/
+}
+
+button {
+    width:100%;
+}
